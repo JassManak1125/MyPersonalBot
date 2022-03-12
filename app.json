@@ -1,0 +1,108 @@
+{
+    "name": "Pika Pika Pikachuu",
+    "description": "HEHE it's mine only mine"
+    "keywords": [
+       "telegram",
+       "hehe"
+       "Pikachuu..."
+    ],   
+ "repository": "https://github.com/JassManak1125/MyPersonalBot",
+ "addons": [
+    {
+       "options": {
+          "version": "12"
+       },
+       "plan": "heroku-postgresql"
+    }
+ ],
+ "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+ "env": {
+    "TOKEN": {
+       "description": "hehe botfather se token lao sur..",
+       "required": true,
+       "value": ""
+    },
+    "API_ID": {
+       "description": "jmrurii h",
+       "required": true,
+       "value": "apni api dalo hehe"
+    },
+    "API_HASH": {
+       "description": "ye bhi jmrurii h",
+       "required": true,
+       "value": "apni api dalo hehe"
+    },    
+    "SQLALCHEMY_DATABASE_URI": {
+       "description": "damtabaseeeeee",
+       "required": false,
+       "value": "sqldbtype://username:pw@hostname:port/db_name"
+    },      
+    "OWNER_ID": {
+       "description": "apki id surr agr ni dalna to meri hi rhne do hehe",
+       "required": true,
+       "value": "1883752632"
+    },
+
+    "BOT_NAME": {
+       "description": "hehe",
+       "required": false,
+       "value": "Pikaacchuuuu"
+    },
+    "OWNER_USERNAME": {
+       "description": "hehe me is master",
+       "value": "abra_ka_dabra_gili_gili_chuu"
+    },
+    "SUPPORT_CHAT": {
+       "description": "hehe u know better than me kanger..",
+       "required": true,
+       "value": "kakashi_support"
+    },      
+    "PHOTO": {
+       "description": "photuu pikachu ki",
+       "required": true,
+       "value": "https://te.legra.ph/file/b7765b0408683d31a8bdc.jpg"
+    },      
+    "DEV_USERS": {
+       "description": "me iz godd",
+       "required": false,
+       "value": "1883752632"
+    },
+  
+    "ENV": {
+       "description": "cheda khani ni munna",
+       "value": "ANYTHING"
+    },
+    "WEBHOOK": {
+       "description": "ignore this u shit",
+       "required": false,
+       "value": ""
+    },
+    "PORT": {
+       "description": "this as well ",
+       "required": false,
+       "value": ""
+    },
+    "URL": {
+       "description": "leab",
+       "required": false,
+       "value": ""
+    },
+    "No_LOAD": {
+       "description": "aage bado",
+       "required": false,
+       "value": "rss"
+    }, 
+    "ALLOW_EXCL": {
+       "description": "huihuihui",
+       "value": "True"
+    }
+    
+ }
+}
